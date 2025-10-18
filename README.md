@@ -24,18 +24,6 @@ Visit my portfolio: **[https://tsegayassefa.github.io](https://tsegayassefa.gith
 - **Deployment:** GitHub Pages
 - **Tools:** Git, GitHub, VS Code
 
-## 📁 Contents
-tsegayassefa.github.io/
-├── index.html # Home page
-├── about.html # About me section
-├── portfolio.html # Projects showcase
-├── resume.html # Resume & skills
-├── contact.html # Contact form
-├── styles.css # Main stylesheet
-├── script.js # JavaScript functionality
-└── image/ # Project images
-├── tsegay.JPG
-└── TechxploreHub.jpg
 
 ## 🎯 Featured website
 
@@ -64,10 +52,5 @@ E-commerce platform with integrated delivery management system.
 - **GitHub:** [github.com/TsegayIS122123](https://github.com/TsegayIS122123)
 - **Portfolio:** [tsegayassefa.github.io](https://tsegayassefa.github.io)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ⭐ *"Keep learning, keep building, keep securing."*
