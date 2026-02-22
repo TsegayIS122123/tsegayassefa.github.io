@@ -1,8 +1,8 @@
-# Tsegay Assefa - Portfolio Website
+# Tsegay Assefa - ML/AI Engineer Portfolio
 
-![Portfolio Preview](https://tsegayassefa.github.io/image/tsegay.JPG)
+![Profile](images/hero/profile.jpg)
 
-Welcome to my personal portfolio website! I'm a 3rd-year Information Science student at Addis Ababa University passionate about technology and innovation.
+Welcome to my personal portfolio website! I'm a Junior Machine Learning Engineer specializing in production-ready AI systems, RAG architectures, and MLOps.
 
 ## 🌐 Live Website
 
@@ -10,47 +10,44 @@ Visit my portfolio: **[https://tsegayassefa.github.io](https://tsegayassefa.gith
 
 ## 🚀 About Me
 
-- 🎓 **3rd-year Information Science Undergraduate** at Addis Ababa University
-- 💻 **Full-Stack Developer** with focus on modern web technologies
-- 🔒 **Cybersecurity Enthusiast** trained at INSA Summer Cyber Talent Program
-- 🤖 **Machine Learning** learner exploring AI applications
+- 🎓 **Information Science Student** at Addis Ababa University (GPA: 3.93/4.0)
+- 🤖 **AI/ML Trainee** at 10 Academy (Kifiya KAIM Program) - 95% score
+- 🔒 **Cybersecurity Trainee** at INSA Cyber Talent Program - 97% score
+- 💻 **10+ Production-Ready AI Projects** built in 12 weeks
 - 🌍 Based in Addis Ababa, Ethiopia
+
+## 🛠️ Featured Projects
+
+### 📈 Brent Oil Change Point Analysis
+Bayesian change point detection for oil price regime shifts. 99.47% confidence, +31.8% price impact quantified.
+- **Tech:** PyMC, Bayesian Stats, React, Flask
+- [GitHub](https://github.com/TsegayIS122123/brent-oil-change-point-analysis) | [Live Demo](https://brent-oil-change-point-analysis.vercel.app)
+
+### 🤖 RAG-Based Complaint Chatbot
+Production-ready retrieval-augmented generation system for financial complaints. 40% latency reduction.
+- **Tech:** LangChain, FAISS, FastAPI, Docker
+- [GitHub](https://github.com/TsegayIS122123/rag-complaint-chatbot)
+
+### 🏥 Medical Telegram Warehouse
+End-to-end healthcare data pipeline processing 50k+ messages. 70% manual work reduction.
+- **Tech:** PostgreSQL, dbt, FastAPI, Docker
+- [GitHub](https://github.com/TsegayIS122123/medical-telegram-warehouse)
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** Custom CSS with CSS Grid & Flexbox
-- **Responsive Design:** Mobile-first approach
-- **Deployment:** GitHub Pages
-- **Tools:** Git, GitHub, VS Code
-
-
-## 🎯 Featured website
-
-### 🔒 BunaSIEM
-Cloud security monitoring dashboard for real-time security event tracking and analysis.
-
-### 🌍 LucyBounty  
-Localization platform making applications available in Amharic, Tigrigna, and Oromiffa languages.
-
-### 🏢 AASTU Campus Network Design
-Network design and configuration for campus area network implementation.
-
-### 🏨 Hotel Room API
-RESTful API for hotel room management with booking capabilities.
-
-### 🔍 Amharic Information Retrieval
-Information retrieval system designed specifically for Amharic language content.
-
-### 🚚 Door-to-Door Delivery System
-E-commerce platform with integrated delivery management system.
+- **Languages:** Python, SQL, JavaScript
+- **Frameworks:** FastAPI, Flask, React
+- **ML/AI:** Scikit-learn, PyMC, LangChain, RAG
+- **DevOps:** Docker, Git, CI/CD
+- **Databases:** PostgreSQL, FAISS, ChromaDB
 
 ## 📫 Connect With Me
 
 - **Email:** [tsegayassefa27@gmail.com](mailto:tsegayassefa27@gmail.com)
-- **LinkedIn:** [linkedin.com/in/tsegay-kidane-95a397336](https://www.linkedin.com/in/tsegay-kidane-95a397336/)
+- **LinkedIn:** [linkedin.com/in/tsegay-assefa-95a397336](https://www.linkedin.com/in/tsegay-assefa-95a397336)
 - **GitHub:** [github.com/TsegayIS122123](https://github.com/TsegayIS122123)
 - **Portfolio:** [tsegayassefa.github.io](https://tsegayassefa.github.io)
 
+---
 
-⭐ *"Keep learning, keep building, keep securing."*
+⭐ *"Building AI systems that matter."*

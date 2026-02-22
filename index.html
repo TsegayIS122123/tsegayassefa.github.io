@@ -3,93 +3,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>Tsegay Assefa | ML/AI Engineer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Junior Machine Learning Engineer specializing in AI systems, RAG chatbots, and MLOps. 10+ production-ready projects with 85%+ accuracy.">
+    <meta name="keywords" content="Machine Learning, AI Engineer, Python, FastAPI, Docker, RAG, MLOps">
+    <meta name="author" content="Tsegay Assefa">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Tsegay Assefa - ML/AI Engineer">
+    <meta property="og:description" content="Building production-ready AI systems with 85%+ accuracy. 10+ projects in 12 weeks.">
+    <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Tsegay Assefa | Home</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header>
-        <div class="logo-container">
-            <img src="image/TechxploreHub.jpg" alt="Logo">
-            <span class="logo-text">Tsegay Assefa</span>
-        </div>
-        <nav>
-            <ul class="nav-list" id="navList">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">TA</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="mobile-menu-icon" onclick="toggleMenu()">
-                <i class="fas fa-bars"></i>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <!-- Hero Section -->
-    <main>
-        <section class="hero">
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-image">
-                    <img src="image/tsegay.JPG" alt="Tsegay Assefa">
+                <h1 class="hero-title">Tsegay Assefa</h1>
+                <h2 class="hero-subtitle">Junior Machine Learning Engineer</h2>
+                <p class="hero-description">
+                    Building production-ready AI systems with 85%+ accuracy. 
+                    Specializing in RAG architectures, Bayesian time-series, and MLOps.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="resume/Tsegay_Assefa_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
                 </div>
-                <div class="hero-text">
-                    <h1>Tsegay Assefa</h1>
-                    <h2>Information Science Student & Developer</h2>
-                    <p>Passionate about Full-Stack Development, Cybersecurity, and Machine Learning</p>
-                    <div class="hero-buttons">
-                        <a href="portfolio.html" class="btn btn-primary">View My Work</a>
-                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/TsegayIS122123" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/tsegay-kidane-95a397336/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:tsegayassefa27@gmail.com"><i class="fas fa-envelope"></i></a>
-                    </div>
+                <div class="hero-social">
+                    <a href="https://github.com/TsegayIS122123" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/tsegay-assefa-95a397336" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:tsegayassefa27@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-        </section>
-
-        <!-- Skills Preview -->
-        <section class="skills-preview">
-            <div class="container">
-                <h2>Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Languages</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">C++</span>
-                            <span class="skill-tag">SQL</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Frameworks & Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">Linux</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="hero-image">
+                <!-- Add your professional photo -->
+                <img src="images/hero/profile.jpg" alt="Tsegay Assefa">
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <!-- Footer -->
-    <footer>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
         <div class="container">
-            <p>&copy; 2025 Tsegay Assefa. All rights reserved.</p>
-            <p class="quote">"Keep learning, keep building, keep securing."</p>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Junior Machine Learning Engineer with hands-on experience building 
+                    <span class="highlight">production-ready AI systems</span> including RAG chatbots, 
+                    time-series anomaly detection models, and ETL data pipelines. Skilled in 
+                    Python, FastAPI, PostgreSQL, and Docker. Experienced in maintaining reliable 
+                    ML systems and backend services.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Avg. Accuracy</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3.93</span>
+                        <span class="stat-label">GPA</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">40%</span>
+                        <span class="stat-label">Latency Reduction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cubes"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                
+                <!-- ML/AI -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> ML/AI</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">PyMC</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">LangChain</span>
+                    </div>
+                </div>
+                
+                <!-- DevOps -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">ChromaDB</span>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- 10 Academy -->
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <span class="timeline-date">2025 – Present</span>
+                    </div>
+                    <div class="timeline-right">
+                        <h3>AI/ML Trainee</h3>
+                        <h4>10 Academy (Kifiya KAIM Program)</h4>
+                        <ul class="timeline-list">
+                            <li>Built 10+ production-ready AI systems with 85%+ average accuracy using supervised learning, RAG architectures, and Bayesian time-series models.</li>
+                            <li>Reduced response latency by 40% in RAG chatbot through optimized vector retrieval and Dockerized FastAPI deployment.</li>
+                            <li>Designed ETL pipelines processing 5,000+ structured records into PostgreSQL.</li>
+                            <li>Improved model reproducibility by 100% using Docker and standardized dependency management.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- INSA -->
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <span class="timeline-date">2025</span>
+                    </div>
+                    <div class="timeline-right">
+                        <h3>Cybersecurity Trainee</h3>
+                        <h4>Information Network Security Agency (INSA)</h4>
+                        <ul class="timeline-list">
+                            <li>Improved threat detection visibility by 30% through network monitoring configurations and log analysis.</li>
+                            <li>Increased dashboard response efficiency by optimizing alert filtering mechanisms.</li>
+                            <li>Strengthened system reliability documentation for enterprise infrastructure.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Brent Oil Analysis -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/brent-oil-dashboard.png" alt="Brent Oil Change Point Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Brent Oil Change Point Analysis</h3>
+                        <p class="project-tech">PyMC • Bayesian Stats • React • Flask</p>
+                        <p class="project-description">
+                            Implemented Bayesian change point detection models to identify regime shifts in oil prices. 
+                            Achieved 99.47% confidence in detecting structural breaks and quantified +31.8% price impact.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>9,011 daily prices analyzed</li>
+                            <li>18 geopolitical events correlated</li>
+                            <li>Interactive dashboard with 4 tabs</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/TsegayIS122123/brent-oil-change-point-analysis" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://brent-oil-change-point-analysis.vercel.app" target="_blank" class="btn-small">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: RAG Chatbot -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/rag-chatbot-ui.png" alt="RAG-Based Complaint Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <h3>RAG-Based Complaint Chatbot</h3>
+                        <p class="project-tech">LangChain • FAISS • FastAPI • Docker</p>
+                        <p class="project-description">
+                            Production-ready retrieval-augmented generation system for financial complaint analysis. 
+                            Integrated LLM with vector database for contextual responses.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>40% latency reduction</li>
+                            <li>89% query relevance</li>
+                            <li>Dockerized deployment</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/TsegayIS122123/rag-complaint-chatbot" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Medical Warehouse -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/medical-warehouse-arch.png" alt="Medical Telegram Warehouse">
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Telegram Warehouse</h3>
+                        <p class="project-tech">PostgreSQL • dbt • FastAPI • Docker</p>
+                        <p class="project-description">
+                            End-to-end healthcare data pipeline processing 50k+ messages from Telegram channels. 
+                            Automated ETL workflow with analytics dashboard.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>70% manual work reduction</li>
+                            <li>85% detection accuracy</li>
+                            <li>Star schema design</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/TsegayIS122123/medical-telegram-warehouse" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View All Projects Link -->
+            <div class="view-all">
+                <a href="https://github.com/TsegayIS122123" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> View All on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <!-- AAU -->
+                <div class="education-card">
+                    <h3>Bachelor of Science in Information Systems</h3>
+                    <h4>Addis Ababa University</h4>
+                    <p class="education-date">2023 – 2027 (Expected)</p>
+                    <p class="education-gpa">GPA: 3.93/4.0 <span class="badge">Top Academic Performance</span></p>
+                    <p class="education-focus">Specialization: Data-Centric Computing & Software Engineering</p>
+                </div>
+                
+                <!-- 10 Academy -->
+                <div class="education-card">
+                    <h3>AI/ML Intensive Training</h3>
+                    <h4>10 Academy (Kifiya KAIM Program)</h4>
+                    <p class="education-date">2025 – 2026</p>
+                    <p class="education-score">Final Score: 95%</p>
+                    <p>10+ industry-level ML/AI projects including RAG systems, forecasting models, and Bayesian analysis.</p>
+                </div>
+                
+                <!-- INSA -->
+                <div class="education-card">
+                    <h3>Cyber Talent Program</h3>
+                    <h4>Information Network Security Agency</h4>
+                    <p class="education-date">2025</p>
+                    <p class="education-score">Final Score: 97%</p>
+                    <p>Network security monitoring, system reliability, infrastructure defense.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:tsegayassefa27@gmail.com">tsegayassefa27@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+251979416992">+251 979 416 992</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Addis Ababa, Ethiopia</span>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://github.com/TsegayIS122123" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/tsegay-assefa-95a397336" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="resume/Tsegay_Assefa_Resume.pdf" download class="social-link">
+                        <i class="fas fa-file-pdf"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tsegay Assefa. Built with <i class="fas fa-heart"></i> for 10 Academy.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 </body>
 </html>
