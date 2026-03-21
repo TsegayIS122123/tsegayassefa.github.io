@@ -4,9 +4,15 @@
 
 Welcome to my personal portfolio website! I'm a Junior Machine Learning Engineer specializing in production-ready AI systems, RAG architectures, and MLOps.
 
-## 🌐 Live Website
+## 🌐 Live Demo
 
-Visit my portfolio: **[https://tsegayassefa.github.io](https://tsegayassefa.github.io)**
+| Platform | URL | Status |
+|----------|-----|--------|
+| **GitHub Pages** | [tsegayis122123.github.io/tsegayassefa.github.io](https://tsegayis122123.github.io/tsegayassefa.github.io/) | ✅ Live |
+| **Vercel** | [tsegay-portfolio.vercel.app](https://tsegay-portfolio.vercel.app) | ✅ Live |
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Live-2ea44f)](https://tsegayis122123.github.io/tsegayassefa.github.io/)
+[![Vercel](https://img.shields.io/badge/Vercel-Live-black)](https://tsegay-portfolio.vercel.app)
 
 ## 🚀 About Me
 
